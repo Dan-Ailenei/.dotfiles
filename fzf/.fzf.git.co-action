@@ -1,0 +1,7 @@
+#!/bin/bash -eu
+if [[ -n "${1:-}" ]]; then
+    if [[ -n "${4:-}" ]]; then
+        git branch --track -f $1 $4/$1
+    fi
+    git checkout $1
+fi
