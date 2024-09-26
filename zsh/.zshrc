@@ -92,4 +92,10 @@ PROMPT='%B%F{$user_color}%n%b:%B%F{blue}%m%b %F{$user_color}%~%F{magenta}${vcs_i
 
 export FZF_DEFAULT_OPTS='--exact'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias vim="nvim"
 eval $(thefuck --alias)
+
+export PATH="$GOPATH/bin:$PATH"
+
+bindkey -v

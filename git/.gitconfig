@@ -36,8 +36,9 @@
 [core]
 	autocrlf = input
 	pager = less -F -X -R
-	editor = nano
+	editor = vim
 [push]
 	default = tracking
 [merge]
 	renamelimit = 1000000
+

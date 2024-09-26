@@ -61,5 +61,11 @@ yabai -m rule --add title='Settings$' manage=off
 # yabai -m rule --add app='Goland IDEA' title='Preferences' manage=off
 # yabai -m rule --add app='Goland IDEA' title='Edit configuration' manage=off
 
+# Disable animations when opening and closing windows.
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+
+# Accelerated playback when adjusting the window size.
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+
 echo "yabai configuration loaded.."
 

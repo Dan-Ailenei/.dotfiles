@@ -1,0 +1,4 @@
+.DS_Store
+bin/.local/share/
+bin/.local/bin
+bin/.local/state
