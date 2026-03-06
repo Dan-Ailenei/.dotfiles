@@ -15,6 +15,14 @@ You need to install/apply configs:
 Things to have in mind:
     - on mac, configure iterm to call tmux-sessionizer\n on cmd + f
 
+Install fonts:
+- https://www.jetbrains.com/lp/mono/
+- https://font.download/font/amazon-ember
+
+Install dark reader:
+- https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-GB
+
 TODO:
    - make some script that installs everything (maybe ansible)
+
 
